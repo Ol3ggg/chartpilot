@@ -14,7 +14,6 @@ export default function Home() {
       <nav className="bg-white shadow py-4 px-6 flex justify-center space-x-6">
         <Link href="/" className="text-blue-700 hover:underline">Home</Link>
         <Link href="/modul1" className="text-blue-700 hover:underline">Modul 1</Link>
-        <a href="#" className="text-gray-400 cursor-not-allowed">Modul 2 (bald)</a>
       </nav>
 
       <section className="max-w-4xl mx-auto px-6 py-12">
@@ -26,11 +25,6 @@ export default function Home() {
               Lerne, wie du mit Charts arbeitest und Marktbewegungen analysierst.
             </p>
             <Link href="/modul1" className="text-blue-600 hover:underline">Modul starten →</Link>
-          </div>
-          <div className="p-6 bg-gray-100 rounded-xl shadow text-gray-400">
-            <h3 className="text-xl font-bold mb-2">Modul 2: Trends & Trendlinien</h3>
-            <p className="mb-4">Dieses Modul ist in Vorbereitung.</p>
-            <span className="italic">Demnächst verfügbar</span>
           </div>
         </div>
       </section>
