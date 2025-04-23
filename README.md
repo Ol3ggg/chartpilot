@@ -1,3 +1,3 @@
-# ChartPilot – Tailwind-Version
+# ChartPilot – Modul 1 komplett
 
-UI wie im Mockup – Cards, Farben, Layout
+Enthält alle Inhalte zu Modul 1 inklusive UI-Animationen.
