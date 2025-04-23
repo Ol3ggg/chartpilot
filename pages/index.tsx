@@ -22,7 +22,7 @@ export default function Home() {
           <div className="p-6 bg-white rounded-xl shadow">
             <h3 className="text-xl font-bold mb-2">Modul 1: Einführung in die Technische Analyse</h3>
             <p className="text-gray-700 mb-4">
-              Lerne, wie du mit Charts arbeitest und Marktbewegungen analysierst.
+              Lerne, wie du mit Charts arbeitest und Marktbewegungen analysierst – jetzt noch ausführlicher.
             </p>
             <Link href="/modul1" className="text-blue-600 hover:underline">Modul starten →</Link>
           </div>
