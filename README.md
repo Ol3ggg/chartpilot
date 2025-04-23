@@ -1,3 +1,3 @@
-# ChartPilot
+# ChartPilot – Modul 1
 
-Eine Lern-App zur technischen Analyse mit Next.js.
+Dies ist das erste Modul der Trading-Lernplattform ChartPilot.
