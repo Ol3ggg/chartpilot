@@ -1,3 +1,3 @@
-# ChartPilot – Modul 1
+# ChartPilot – Tailwind-Version
 
-Dies ist das erste Modul der Trading-Lernplattform ChartPilot.
+UI wie im Mockup – Cards, Farben, Layout

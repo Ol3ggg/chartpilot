@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { Card, CardContent } from '../components/ui/card'
 
 export default function Home() {
   return (
@@ -16,24 +15,23 @@ export default function Home() {
         </header>
 
         <section className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <Card>
-            <CardContent className="p-6">
-              <h2 className="text-2xl font-semibold mb-2">📘 Modul 1: Was ist Technische Analyse?</h2>
-              <p className="text-gray-700 mb-4">
-                Technische Analyse ist die Auswertung vergangener Kursbewegungen, um zukünftige Preisentwicklungen vorherzusagen. Dabei nutzt man Charts, Trendlinien, Unterstützungen und Widerstände.
-              </p>
-              <ul className="list-disc list-inside text-gray-700 mb-4">
-                <li>Ziel: bessere Einstiege & Ausstiege finden</li>
-                <li>Basis: Preis, Volumen, Zeit</li>
-                <li>Verwendete Tools: Charts, Indikatoren</li>
-              </ul>
-              <div className="text-right">
-                <Link href="#modul1-inhalt" className="text-blue-600 hover:underline">
-                  ➜ Weiter zu Modul 1-Inhalt
-                </Link>
-              </div>
-            </CardContent>
-          </Card>
+          <div className="rounded-xl shadow bg-white p-6">
+            <h2 className="text-2xl font-semibold mb-2">📘 Modul 1: Was ist Technische Analyse?</h2>
+            <p className="text-gray-700 mb-4">
+              Technische Analyse ist die Auswertung vergangener Kursbewegungen, um zukünftige Preisentwicklungen vorherzusagen.
+              Dabei nutzt man Charts, Trendlinien, Unterstützungen und Widerstände.
+            </p>
+            <ul className="list-disc list-inside text-gray-700 mb-4">
+              <li>Ziel: bessere Einstiege & Ausstiege finden</li>
+              <li>Basis: Preis, Volumen, Zeit</li>
+              <li>Verwendete Tools: Charts, Indikatoren</li>
+            </ul>
+            <div className="text-right">
+              <Link href="#modul1-inhalt" className="text-blue-600 hover:underline">
+                ➜ Weiter zu Modul 1-Inhalt
+              </Link>
+            </div>
+          </div>
         </section>
 
         <section id="modul1-inhalt" className="mt-12">
